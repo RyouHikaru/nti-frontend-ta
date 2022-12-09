@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NTI Frontend Technical Assessment</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://unpkg.com/@metamask/detect-provider/dist/detect-provider.min.js"></script>
+  <script type="module" src="./js/main.js"></script>
+</head>
+<body>
+  <main class="content">
+    <section class="content__connect">
+      <button class="content__button-connect" id="connect-btn">Connect to Metamask</button>
+      <img class="content__img" src="./img/metamask-icon.png" alt="metamask-icon" width="512" height="512">
+    </section>
+    <section class="content__details hidden" id="details-section">
+      <label id="chain" for="chain"></label>
+      <label id="account" for="account"></label>
+      <label id="balance" for="balance"></label>
+    </section>
+  </main>
+</body>
+</html>
